@@ -32,8 +32,8 @@ public:
 
             que1.push(node1->left);
             que1.push(node1->right);
-            que2.push(node1->right);
-            que2.push(node1->left);
+            que2.push(node2->right);
+            que2.push(node2->left);
         }
         return true;
     }
