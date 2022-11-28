@@ -6,7 +6,8 @@ class Solution {
 public:
     vector<string> summaryRanges(vector<int>& nums) {
         vector<string> ans;
-
+        if(nums.size() == 0) return ans;
+        
         int head = nums[0];
         for(int i=0; i<nums.size(); i++){
             if(i == nums.size()-1 || nums[i]+1 != nums[i+1]){
