@@ -31,7 +31,6 @@ void print(ListNode *head){
         cur = cur->next;
     }
     cout << endl;
-    
 }
 
 int main(){
